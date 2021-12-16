@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"activity/activity"
-	"activity/internal/config"
-	"activity/internal/server"
-	"activity/internal/svc"
+	"github.com/chabby-hao/acitivity-rpc/activity"
+	"github.com/chabby-hao/acitivity-rpc/internal/config"
+	"github.com/chabby-hao/acitivity-rpc/internal/server"
+	"github.com/chabby-hao/acitivity-rpc/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/core/service"
@@ -16,7 +16,7 @@ import (
 	"google.golang.org/grpc/reflection"
 )
 
-var configFile = flag.String("f", "etc/activity.yaml", "the config file")
+var configFile = flag.String("f", "etc/github.com/chabby-hao/acitivity-rpc.yaml", "the config file")
 
 func main() {
 	flag.Parse()

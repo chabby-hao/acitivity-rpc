@@ -1,6 +1,6 @@
 package svc
 
-import "activity/internal/config"
+import "github.com/chabby-hao/acitivity-rpc/internal/config"
 
 type ServiceContext struct {
 	Config config.Config
