@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/chabby-hao/acitivity-rpc/activity"
-	"github.com/chabby-hao/acitivity-rpc/internal/config"
-	"github.com/chabby-hao/acitivity-rpc/internal/server"
-	"github.com/chabby-hao/acitivity-rpc/internal/svc"
+	"github.com/chabby-hao/activity-rpc/activity"
+	"github.com/chabby-hao/activity-rpc/internal/config"
+	"github.com/chabby-hao/activity-rpc/internal/server"
+	"github.com/chabby-hao/activity-rpc/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/core/service"

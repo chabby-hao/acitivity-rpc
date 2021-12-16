@@ -6,7 +6,7 @@ package activityclient
 import (
 	"context"
 
-	"github.com/chabby-hao/acitivity-rpc/activity"
+	"github.com/chabby-hao/activity-rpc/activity"
 
 	"github.com/tal-tech/go-zero/zrpc"
 	"google.golang.org/grpc"

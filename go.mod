@@ -1,4 +1,4 @@
-module github.com/chabby-hao/acitivity-rpc
+module github.com/chabby-hao/activity-rpc
 
 go 1.17
 

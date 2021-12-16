@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"github.com/chabby-hao/acitivity-rpc/activity"
-	"github.com/chabby-hao/acitivity-rpc/internal/logic"
-	"github.com/chabby-hao/acitivity-rpc/internal/svc"
+	"github.com/chabby-hao/activity-rpc/activity"
+	"github.com/chabby-hao/activity-rpc/internal/logic"
+	"github.com/chabby-hao/activity-rpc/internal/svc"
 )
 
 type ActivityServer struct {

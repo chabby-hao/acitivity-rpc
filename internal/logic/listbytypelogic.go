@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/chabby-hao/acitivity-rpc/activity"
-	"github.com/chabby-hao/acitivity-rpc/internal/svc"
+	"github.com/chabby-hao/activity-rpc/activity"
+	"github.com/chabby-hao/activity-rpc/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )
