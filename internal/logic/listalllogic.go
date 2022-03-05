@@ -1,14 +1,14 @@
 package logic
 
 import (
-	"github.com/chabby-hao/activity-rpc/activity"
 	"context"
+	"github.com/chabby-hao/activity-rpc/activity"
 	"math/rand"
 	"time"
 
 	"github.com/chabby-hao/activity-rpc/internal/svc"
 
-	"github.com/tal-tech/go-zero/core/logx"
+	"github.com/zeromicro/go-zero/core/logx"
 )
 
 type ListAllLogic struct {

@@ -259,7 +259,9 @@ func init() {
 	proto.RegisterType((*ListByTypeResponse)(nil), "github.com/chabby-hao/acitivity-rpc.ListByTypeResponse")
 }
 
-func init() { proto.RegisterFile("github.com/chabby-hao/acitivity-rpc.proto", fileDescriptor_a684c9a0549e7832) }
+func init() {
+	proto.RegisterFile("github.com/chabby-hao/acitivity-rpc.proto", fileDescriptor_a684c9a0549e7832)
+}
 
 var fileDescriptor_a684c9a0549e7832 = []byte{
 	// 271 bytes of a gzipped FileDescriptorProto
